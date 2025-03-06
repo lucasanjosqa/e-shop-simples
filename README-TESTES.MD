@@ -1,10 +1,3 @@
-Que bom que gostou! Agora vou criar um `README.md` específico para registrar todos os testes do "E-Shop Simples", focado em documentar os **testes manuais**, **testes exploratórios** e **testes automatizados** que planejei no desafio técnico. Este arquivo será um complemento ao `README.md` principal, detalhando a abordagem de qualidade de software. Vou chamá-lo de `README-TESTES.md` para diferenciá-lo, mas se preferir outro nome, é só avisar.
-
-Aqui está o conteúdo:
-
----
-
-```markdown
 # README-TESTES.md - Documentação de Testes do E-Shop Simples
 
 ![Status dos Testes](https://img.shields.io/badge/Testes-Concluídos-green)  
@@ -203,10 +196,3 @@ describe('Testes de Login no E-Shop Simples', () => {
    - No GitHub (`https://github.com/lucasanjosqa/e-shop-simples`), o arquivo aparecerá na lista. Clique nele para ler a versão renderizada.
 
 ---
-
-### **Por Que Esse README de Testes é Útil?**
-- **Detalhamento**: Registra cada teste com clareza (passos, resultados, bugs).
-- **Profissionalismo**: Mostra sua habilidade como QA em documentar processos.
-- **Praticidade**: Serve como referência para futuros testes ou melhorias.
-
-Se quiser ajustes (ex.: mais cenários, outro formato ou integração com o `README` principal), é só me avisar! Como posso te ajudar mais agora? Quer configurar o GitHub Pages ou algo diferente?
