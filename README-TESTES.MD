@@ -175,4 +175,3 @@ describe('Testes de Login no E-Shop Simples', () => {
 
 ---
 **Testado com rigor por um QA apaixonado por qualidade!**
-```
