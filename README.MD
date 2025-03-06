@@ -74,7 +74,5 @@ Para detalhes completos dos testes, veja:
 ## 📜 Licença
 Este projeto é de código aberto e está sob a licença MIT. Veja o arquivo `LICENSE` (a ser adicionado) para mais detalhes.
 
----
-
 **Desenvolvido com 💻 e ☕ por Lucas Anjos**
 ```
