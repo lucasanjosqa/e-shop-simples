@@ -62,6 +62,10 @@ Como engenheiro de qualidade de software, planejei o projeto com testes em mente
 - **Testes Automatizados**: Um script básico com Cypress foi criado para validar o fluxo de login.
 - **Bugs Identificados**: Durante testes exploratórios, notei validações ausentes (ex.: e-mail inválido aceito).
 
+### Deploy Online
+O projeto está hospedado no GitHub Pages:
+- [Acesse aqui](https://lucasanjosqa.github.io/e-shop-simples/)
+
 Para detalhes completos dos testes, veja:
 - **[Documentação de Testes](https://github.com/lucasanjosqa/e-shop-simples/blob/main/README-TESTES.MD)**: Planos, resultados e relatórios de bugs.
 
@@ -69,7 +73,7 @@ Para detalhes completos dos testes, veja:
 ## 📧 Contato
 - **Autor**: Lucas Anjos
 - **GitHub**: [lucasanjosqa](https://github.com/lucasanjosqa)
-- **E-mail**: (opcional, adicione se quiser)
+- **E-mail**: rs.lucascorrea@gmail.com
 
 ## 📜 Licença
 Este projeto é de código aberto e está sob a licença MIT. Veja o arquivo `LICENSE` (a ser adicionado) para mais detalhes.
