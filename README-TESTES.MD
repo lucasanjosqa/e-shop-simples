@@ -176,23 +176,3 @@ describe('Testes de Login no E-Shop Simples', () => {
 ---
 **Testado com rigor por um QA apaixonado por qualidade!**
 ```
-
----
-
-### **Como Adicionar ao Seu Projeto**
-1. **Crie o Arquivo**:
-   - Copie o conteúdo acima em um editor de texto.
-   - Salve como `README-TESTES.md` na pasta `e-shop-simples`.
-
-2. **Suba para o GitHub**:
-   ```bash
-   cd caminho/para/e-shop-simples
-   git add README-TESTES.md
-   git commit -m "Adicionando documentação de testes"
-   git push origin main
-   ```
-
-3. **Verifique**:
-   - No GitHub (`https://github.com/lucasanjosqa/e-shop-simples`), o arquivo aparecerá na lista. Clique nele para ler a versão renderizada.
-
----
