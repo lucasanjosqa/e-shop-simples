@@ -1,3 +1,4 @@
+```markdown
 # E-Shop Simples
 
 ![E-Shop Simples](https://img.shields.io/badge/Status-Concluído-green)  
@@ -56,25 +57,19 @@ e-shop-simples/
 ├── checkout.html       # Finalização de compra
 ├── styles.css          # Estilos globais
 ├── scripts.js          # Lógica da aplicação
-└── README.md           # Documentação
+├── README.md           # Documentação principal
+└── README-TESTES.md    # Documentação de testes
 ```
 
 ## 🧪 Testes
 Como engenheiro de qualidade de software, planejei o projeto com testes em mente:
-- **Testes Manuais**: Cenários de login, cadastro e checkout foram validados manualmente (veja o plano de teste no desafio técnico).
-- **Testes Automatizados**: Um script básico com Cypress foi criado para validar o fluxo de login (disponível separadamente ou integrável).
-- **Bugs Identificados**: Durante testes exploratórios, notei validações ausentes (ex.: e-mail inválido aceito), que podem ser corrigidas em versões futuras.
+- **Testes Manuais**: Cenários de login, cadastro e checkout foram validados manualmente.
+- **Testes Automatizados**: Um script básico com Cypress foi criado para validar o fluxo de login.
+- **Bugs Identificados**: Durante testes exploratórios, notei validações ausentes (ex.: e-mail inválido aceito).
 
-### Exemplo de Teste Automatizado (Cypress)
-```javascript
-it('Deve realizar login com credenciais válidas', () => {
-  cy.visit('index.html');
-  cy.get('#email').type('teste@exemplo.com');
-  cy.get('#password').type('Teste123!');
-  cy.get('button[type="submit"]').click();
-  cy.url().should('include', 'home.html');
-});
-```
+Para detalhes completos dos testes, veja:
+- **[Documentação de Testes](./README-TESTES.md)**: Planos, resultados e relatórios de bugs.
+
 
 ## 📧 Contato
 - **Autor**: Lucas Anjos
@@ -87,3 +82,46 @@ Este projeto é de código aberto e está sob a licença MIT. Veja o arquivo `LI
 ---
 
 **Desenvolvido com 💻 e ☕ por Lucas Anjos**
+```
+
+---
+
+### **Mudanças Realizadas**
+- **Link Adicionado**: Na seção "Testes", incluí:
+  ```markdown
+  - **[Documentação de Testes](./README-TESTES.md)**: Planos, resultados e relatórios de bugs.
+  ```
+  - O `./README-TESTES.md` é um link relativo que aponta para o arquivo no mesmo diretório. No GitHub, ele será clicável e abrirá o `README-TESTES.md` renderizado.
+- **Estrutura Atualizada**: Adicionei `README-TESTES.md` à lista de arquivos na seção "Estrutura do Projeto" para refletir a presença do novo arquivo.
+
+---
+
+### **Como Aplicar a Edição**
+
+#### **1. Edite o Arquivo Localmente**
+1. Abra o `README.md` existente na pasta `e-shop-simples` com um editor (ex.: Bloco de Notas, VS Code).
+2. Substitua todo o conteúdo pelo código acima.
+3. Salve o arquivo.
+
+#### **2. Suba as Alterações para o GitHub**
+```bash
+cd caminho/para/e-shop-simples
+git add README.md
+git commit -m "Adicionando link para README-TESTES.md no README principal"
+git push origin main
+```
+
+#### **3. Resolva Possíveis Conflitos (Se Necessário)**
+Se o remoto tiver mudanças que você não tem localmente (como no erro anterior), puxe primeiro:
+```bash
+git pull origin main
+```
+- Resolva conflitos (se houver) editando o `README.md` manualmente, depois:
+  ```bash
+  git add README.md
+  git commit -m "Mesclando mudanças e adicionando link para testes"
+  git push origin main
+  ```
+---
+
+
