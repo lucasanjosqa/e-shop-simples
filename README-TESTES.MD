@@ -172,6 +172,3 @@ describe('Testes de Login no E-Shop Simples', () => {
 ## 📧 Contato
 - **Autor**: Lucas Anjos
 - **GitHub**: [lucasanjosqa](https://github.com/lucasanjosqa)
-
----
-**Testado com rigor por um QA apaixonado por qualidade!**
