@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Shop Simples - Login</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <p>Ainda não tem conta? <a href="register.html">Cadastre-se</a></p>
+    <div id="loginMessage"></div>
+  </div>
+  <script src="./assets/scripts.js"></script>
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', login);
+  </script>
+</body>
+</html>

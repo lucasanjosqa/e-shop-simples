@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Shop Simples - Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Finalizar Compra</h1>
+    <form id="checkoutForm">
+      <label for="card">Número do Cartão:</label>
+      <input type="text" id="card" required>
+      <button type="submit">Confirmar</button>
+    </form>
+    <div id="checkoutMessage"></div>
+    <a href="home.html">Voltar</a>
+  </div>
+  <script src="scripts.js"></script>
+  <script>
+    document.getElementById('checkoutForm').addEventListener('submit', checkout);
+  </script>
+</body>
+</html>
